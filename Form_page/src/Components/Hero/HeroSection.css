@@ -1,0 +1,50 @@
+.hero-section{
+    display: flex;
+    padding: 5px 80px;
+    margin-top: 83px;
+    /* background-color: red; */
+}
+#email-form{
+width: 533px;
+margin-top: 23px;
+background-color: white;
+color: black;
+}
+.form{
+    /* background-color: greenyellow; */
+width: 733px;
+height: 333px;
+margin-left: 93px;
+padding: 5px 20px;
+}
+.form input{
+    font-size: 35px;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 533px;
+    margin-bottom: 22px;
+}
+.btns{
+    display: flex;
+    margin: 5px 90px;
+    justify-content: space-between;
+}
+#call-chat{
+margin-right: 133px;
+width:203px ;
+}
+#support-chat{
+    margin-left: 33px;
+}
+.btn{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    padding: 10px 20px;
+border-radius: 5px;
+transition: 0.2s;
+}
+.btn:hover{
+    scale: 1.2;
+    cursor: pointer;
+}

@@ -1,0 +1,20 @@
+.contact{
+    /* background-color: red; */
+    margin: 5px 40px;
+    padding-left: 93px;
+}
+.contact-head{
+font-size: 50px;
+padding-left:53px ;
+}
+.contact-para{
+padding-left:53px ;
+font-size: 25px;
+}
+.iphone-img{
+  transition: 0.2s;
+}
+.iphone-img:hover{
+    scale: 1.2;
+    cursor: pointer;
+}
