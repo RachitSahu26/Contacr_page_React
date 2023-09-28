@@ -1,29 +1,116 @@
 .nav-area{
-    display: flex;
-    /* background-color: red; */
-    justify-content: space-between;
-    margin: 0px 30px;
+  border:  2px solid greenyellow;
+  display: flex;
+justify-content: space-between;
+padding: 10px 70px;
 }
 
 .left-div{
-    margin-top: 22px;
-    margin-left: 22px;
+    /* border:  2px solid rgb(255, 227, 47); */
+ padding: 10px;
+ padding-top: 30px;
 }
 .right-div{
-    /* background-color: aqua; */
-    padding-right: 33px;
+    border:  2px solid rgb(175, 47, 255);
+
 }
 ul{
+  
     display: flex;
     
 }
 ul li{
-    padding: 15px;
-    list-style: none;
-    font-size: 35px;
-transition:0.2s ;
+   list-style-type: none;
+   padding: 25px;
+   font-size: 2.2rem;
 }
 ul li:hover{
  scale: 1.2;
  cursor: pointer;
+}
+
+
+/* ..............Media Queries....... */
+/* -------------------media (1280)-------------- */
+@media screen and (max-width:1280px) {
+    .nav-area{
+        border:  2px solid greenyellow;
+        display: flex;
+        width: 79%;
+        justify-content: space-between;
+        padding: 10px 50px;
+      }
+      
+      .left-div{
+          /* border:  2px solid rgb(255, 227, 47); */
+       padding: 10px;
+       padding-top: 30px;
+      }
+      .right-div{
+          border:  2px solid rgb(175, 47, 255);
+      
+      }
+      ul{
+        
+          display: flex;
+          
+      }
+      ul li{
+         list-style-type: none;
+         padding: 25px;
+         font-size: 2.2rem;
+      }
+      ul li:hover{
+       scale: 1.2;
+       cursor: pointer;
+      }
+      
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------media (1024)-------------- */
+@media screen and (max-width:1024px) {
+    .nav-area{
+        border:  2px solid greenyellow;
+        display: flex;
+        width: 79%;
+        justify-content: space-between;
+        padding: 10px 50px;
+      }
+      
+      .left-div{
+          /* border:  2px solid rgb(255, 227, 47); */
+       padding: 10px;
+       padding-top: 30px;
+      }
+      .right-div{
+          border:  2px solid rgb(175, 47, 255);
+      
+      }
+      ul{
+        
+          display: flex;
+          
+      }
+      ul li{
+         list-style-type: none;
+         padding: 25px;
+         font-size: 2.2rem;
+      }
+      ul li:hover{
+       scale: 1.2;
+       cursor: pointer;
+      }
+      
+    
 }
